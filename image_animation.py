@@ -1,4 +1,5 @@
 import imageio
+import cv2
 import torch
 from tqdm import tqdm
 from animate import normalize_kp
@@ -8,10 +9,9 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 from skimage import img_as_ubyte
 from skimage.transform import resize
-import cv2
+
 import os
 import argparse
-
 import subprocess
 import os
 from PIL import Image
